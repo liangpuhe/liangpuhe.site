@@ -158,7 +158,7 @@ blockquote {
   padding-top: 7px;
   padding-bottom: 7px;
   font-family: Ubuntu, Helvetica, sans-serif;
-  color: #8c989b;
+  color: #bec3c7;
   font-size: 12px;
   line-height: 18px;
   font-weight: 500;
@@ -167,6 +167,10 @@ blockquote {
 
 .navigation-link:hover {
   color: #333;
+}
+
+.navigation-link:focus {
+  color: #f0f0f0;
 }
 
 .navigation-link.w--current {
@@ -218,6 +222,7 @@ blockquote {
   line-height: 36px;
   font-weight: 400;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .brand-link {
@@ -995,8 +1000,22 @@ blockquote {
 }
 
 .blog-header-div {
-  background-image: -webkit-linear-gradient(270deg, rgba(204, 143, 19, .85), rgba(204, 143, 19, .85)), url('../images/www.madebyvadim.com.jpg');
-  background-image: linear-gradient(180deg, rgba(204, 143, 19, .85), rgba(204, 143, 19, .85)), url('../images/www.madebyvadim.com.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(204, 143, 19, .85), rgba(204, 143, 19, .85)), url('../images/logistics.jpg');
+  background-image: linear-gradient(180deg, rgba(204, 143, 19, .85), rgba(204, 143, 19, .85)), url('../images/logistics.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+}
+
+.blog-header-div.ubi {
+  background-image: -webkit-linear-gradient(270deg, rgba(196, 143, 151, .8), rgba(196, 143, 151, .8)), url('../images/kaboompics.com_Abstract-Architecture.jpg');
+  background-image: linear-gradient(180deg, rgba(196, 143, 151, .8), rgba(196, 143, 151, .8)), url('../images/kaboompics.com_Abstract-Architecture.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+}
+
+.blog-header-div.exh {
+  background-image: -webkit-linear-gradient(270deg, rgba(63, 131, 122, .85), rgba(63, 131, 122, .85)), url('../images/pexels-exhibition---s.jpg');
+  background-image: linear-gradient(180deg, rgba(63, 131, 122, .85), rgba(63, 131, 122, .85)), url('../images/pexels-exhibition---s.jpg');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
 }
@@ -1049,6 +1068,14 @@ blockquote {
   color: #f0a50e;
   font-size: 17px;
   font-weight: 600;
+}
+
+.blog-header-text.ubi {
+  color: #be5f6e;
+}
+
+.blog-header-text.exh {
+  color: #44b6a7;
 }
 
 .blog-desc {
@@ -1108,28 +1135,35 @@ blockquote {
 }
 
 .blog-content-normal {
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
   color: rgba(0, 0, 0, .82);
-  font-size: 15px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 31px;
   font-weight: 400;
 }
 
 .blog-content-sub {
+  display: block;
   margin-top: 0px;
-  margin-bottom: 15px;
-  margin-left: 40px;
-  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+  padding-top: 0px;
+  float: none;
+  clear: none;
+  font-family: 'PT Sans', sans-serif;
   color: #000;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 30px;
   font-weight: 400;
+  letter-spacing: 0px;
+  text-indent: 0px;
 }
 
 .project-link-block {
   width: 330px;
-  margin-right: 65px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .about-side-work {
@@ -1174,8 +1208,53 @@ blockquote {
   text-transform: uppercase;
 }
 
+.blog-section-subheader.ubi {
+  color: #e69ba7;
+  text-transform: none;
+}
+
+.blog-section-subheader.exh {
+  color: #44b6a7;
+}
+
 .blog-section-header {
   margin-bottom: 15px;
+}
+
+.header-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 0px;
+  margin-right: 8px;
+  margin-left: 0px;
+  float: left;
+  opacity: 0.8;
+  color: transparent;
+}
+
+.blog-content-h3 {
+  margin-top: 16px;
+  margin-bottom: 3px;
+  font-family: 'Open Sans', sans-serif;
+  color: #5d5d5d;
+  font-size: 18px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+.blog-light-box {
+  display: block;
+  width: auto;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.blog-content-img {
+  margin-bottom: 20px;
 }
 
 html.w-mod-js *[data-ix="fade-in-bottom-page-loads"] {
