@@ -1412,9 +1412,46 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .photo-link-block {
     margin-bottom: 0px;
   }
+  .blog-content {
+    padding-right: 0px;
+    padding-left: 10px;
+  }
   .photo-row {
     margin-bottom: 40px;
     padding-bottom: 40px;
+  }
+  .blog-subheader {
+    display: block;
+  }
+  .blog-subheader-container {
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .blog-desc {
+    display: inline;
+    margin-left: 0px;
+    padding-top: 0px;
+    float: none;
+    clear: none;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+  .blog-content-contianer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .blog-content-img {
+    margin-left: -10px;
   }
 }
 
