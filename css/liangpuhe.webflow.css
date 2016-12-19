@@ -1121,6 +1121,7 @@ blockquote {
   margin-top: 30px;
   padding-right: 60px;
   padding-left: 60px;
+  line-height: 20;
 }
 
 .blog-text-subitem {
@@ -1255,6 +1256,15 @@ blockquote {
 
 .blog-content-img {
   margin-bottom: 20px;
+}
+
+.caption {
+  margin-top: -25px;
+  float: right;
+  font-family: Lato, sans-serif;
+  color: #a1a7ac;
+  line-height: 2;
+  font-style: italic;
 }
 
 html.w-mod-js *[data-ix="fade-in-bottom-page-loads"] {
