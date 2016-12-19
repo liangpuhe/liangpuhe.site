@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Sun Dec 11 2016 16:44:34 GMT+0000 (UTC)  -->
+<!--  Last Published: Mon Dec 19 2016 16:41:15 GMT+0000 (UTC)  -->
 <html data-wf-page="582c1670b8d250e51e37de7e" data-wf-site="582c1670b8d250e51e37de75">
 <head>
   <meta charset="utf-8">
@@ -21,6 +21,15 @@
   <script src="js/modernizr.js" type="text/javascript"></script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-89169477-1'], ['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script');
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 </head>
 <body>
   <div class="blog-header-div">
@@ -75,8 +84,9 @@
     <div class="blog-content-contianer w-container">
       <h1 class="blog-section-subheader">empathize</h1>
       <h1>Get to Know Our User</h1>
-      <div class="blog-content">
+      <div class="blog-content w-clearfix">
         <div class="blog-content-normal">We started with a one-day workshop with stakeholders, including product owners, customer representatives . We invited EWM customers who demand for software assistantship in e-commerce return business. Customers are from various areas including groceries, coffee and cloth industry. The workshop helped us collect information of return process in their business, and their special concerns in each particular industry, so we could better understand their pains.</div><img class="blog-content-img" sizes="(max-width: 479px) 94vw, (max-width: 767px) 61vw, (max-width: 991px) 458px, 670px" src="images/workshop---s.JPG" srcset="images/workshop---s-p-500x375.jpeg 500w, images/workshop---s.JPG 700w" width="699">
+        <div class="caption">This picture is credited by Hanna</div>
       </div>
     </div>
     <div class="blog-content-contianer w-container">
@@ -102,7 +112,7 @@
     </a>
     <div class="blog-content-contianer w-container">
       <div class="blog-content">
-        <div class="blog-content-normal">Considering facts of business and software itself, we prioritized requirements, and decided to work with one persona first. We build a persona "Roberta" for return clerk working in sports retailing company. I also developed storyboard for communication with design central team and developers.</div><img class="blog-content-img" sizes="(max-width: 479px) 94vw, (max-width: 767px) 61vw, (max-width: 991px) 458px, 670px" src="images/workflow---s.png" srcset="images/workflow---s-p-500x282.png 500w, images/workflow---s.png 699w" width="699">
+        <div class="blog-content-normal">Considering facts of business and software itself, we prioritized requirements, and decided to work with one persona first. We build a persona "Roberta" for return clerk working in sports retailing company. I also developed storyboard for idea presentation with design central team and developers.</div><img class="blog-content-img" sizes="(max-width: 479px) 94vw, (max-width: 767px) 61vw, (max-width: 991px) 458px, 670px" src="images/workflow---s.png" srcset="images/workflow---s-p-500x282.png 500w, images/workflow---s.png 699w" width="699">
       </div>
     </div>
     <a class="blog-light-box w-inline-block w-lightbox" href="#"><img class="blog-content-img" sizes="100vw" src="images/Roberta.png" srcset="images/Roberta-p-500x282.png 500w, images/Roberta-p-800x450.png 800w, images/Roberta-p-1080x608.png 1080w, images/Roberta.png 1280w" width="1100">
@@ -123,14 +133,14 @@
       <div class="blog-content">
         <div class="blog-content-normal">For e-commerce return application in EWM, we set us two most important goals:</div>
         <div class="blog-content-sub">1. From user experience perspective. We ought to provide helpful and neat guide in proper timing, to assist warehouse clerk process returned product correctly and efficiently.&nbsp;
-          <br>2. Program on existing system to initiating return process from EWM instead of ERP, recording all the useful information of inspection process to return order creation. At the mean time, the commitment time shall be rigidly short.</div>
+          <br>2. Program on existing system to initiate return process from EWM, recording all the useful information of inspection process to return order creation. At the mean time, the commitment time shall be rigidly short.</div>
       </div>
     </div>
     <div class="blog-content-contianer w-container">
       <h1 class="blog-section-subheader">Ideation</h1>
       <h1>Lead Smooth Inspection &amp; Trigger Return Process in EWM</h1>
       <div class="blog-content">
-        <div class="blog-content-normal">We had remote and face-to-face interview over 10 times with target user, asking open-ended questions and contextual inquiries. We had field observation in warehouse and directed storytelling. Our questions and observations mostly focus on following questions:</div>
+        <div class="blog-content-normal">We had remote and face-to-face interview over 10 times with target user, asking open-ended questions and contextual inquiries for quantitive data, like their general workflow. We had field observation in warehouse and directed storytelling to collect qualitative data, such as how they make mistakes. Our questions and observations mostly trying to figure out following questions:</div>
         <div class="blog-content-sub">1. How warehouse clerk process returned items in your business? Any difference in this process&nbsp;between warehouses in different areas? Could you walk us through the return process?
           <br>2. How do you record unplanned return products in system currently? What else is wanted to improve your business process?
           <br>3. In which step does error or slip happen?
@@ -144,9 +154,9 @@
       <div class="blog-content">
         <div class="blog-content-normal">For UI harmonization, we decided to use <a href="http://www.sap.com/product/technology-platform/fiori.html">Fiori</a> framework for return application. Compared to my other more flexible prototyping&nbsp;experience, I had challenging time designing within&nbsp;constraints of&nbsp;<a href="https://experience.sap.com/fiori-design/">Fiori design guideline</a>.</div>
         <div class="blog-content-normal">Fiori has great role-based&nbsp;floorpan to supporting transaction of monitoring and&nbsp;pipeline business. But in this return app, we hope to link return clerk’s&nbsp;physical activities with the system interaction, to build intuitive <a href="http://www.sharritt.com/CISHCIExam/norman.html">conceptual model</a>. We had two major problems:</div>
-        <div class="blog-content-sub">1. How to sequence and prioritize all the actions in a singe page? How to arrange secondary information? It would be too much if pop-ups
-          <br>2. Return clerk wants to&nbsp;execute put-away in system when HU (handling unit) is full of returned product, and sometimes needs to create a new one. How to reflect two actions in the system, and avoid interruption/confusion?</div>
-        <div class="blog-content-normal">We re-examined user scenarios, and categorized user input into necessary, occasionally necessary and nice-to-have. We surely gave first priority to the necessary input, and put nice-to-have features in lower positions. For occasional data, take serial number as an example.&nbsp;Users mainly capture it on a pop-up window, and able to&nbsp;check or modify it later&nbsp;by clicking tagged&nbsp;abbreviated information on main page.&nbsp;We also designed a group of toggle buttons for condition&nbsp;selection, to restrain user from making mistakes. And the content of those buttons are customizable to provide more flexibility for different business. Final version of Axure prototype cannot be posted due to disclosure issue.</div><img class="blog-content-img" sizes="(max-width: 479px) 94vw, (max-width: 767px) 61vw, (max-width: 991px) 458px, 670px" src="images/returnss---s.PNG" srcset="images/returnss---s-p-500x262.png 500w, images/returnss---s.PNG 695w" width="699">
+        <div class="blog-content-sub">1. How to sequence and prioritize all the actions in a singe page, so that the user could finish task without bother to scroll? How to arrange secondary information? It would be too much if all pop-ups
+          <br>2. Return clerk wants to&nbsp;execute put-away in system when HU (handling unit) is full of returned product, and sometimes needs to create a new HU. How to reflect two actions in the system, and avoid interruption/confusion?</div>
+        <div class="blog-content-normal">We re-examined user scenarios, and categorized user input into necessary, occasionally necessary and nice-to-have. We surely gave first priority to the necessary input, and put nice-to-have features in lower positions. For occasional data, take serial number as an example.&nbsp;Users mainly capture it on a pop-up window, and able to&nbsp;check or modify it later&nbsp;by clicking tagged&nbsp;abbreviated information on main page.&nbsp;We also designed a group of toggle buttons for condition&nbsp;selection, to restrain user from making mistakes.(This was proved to be effective in A/B test) And the content of those buttons are customizable to provide more flexibility for different business. Final version of Axure prototype after four times iteration cannot be posted due to non-disclosure agreement.</div><img class="blog-content-img" sizes="(max-width: 479px) 94vw, (max-width: 767px) 61vw, (max-width: 991px) 458px, 670px" src="images/returnss---s.PNG" srcset="images/returnss---s-p-500x262.png 500w, images/returnss---s.PNG 695w" width="699">
       </div>
     </div>
     <div class="blog-content-contianer w-container">
@@ -168,6 +178,15 @@
       <h1 class="blog-section-header">The Future of E-commerce Return</h1>
       <div class="blog-content">
         <div class="blog-content-normal">In this project, I worked as user experience advocator first time with a team of developer and software architects. I was lucky to get this chance to practice design-driven software&nbsp;development, and test my design&nbsp;idea with real customers. At meantime, I enjoyed very much propelling my whole development team to think for users, and used information visualization to promote team communication. It made me motivated when I know my work is producing value for users outside in warehouse&nbsp;and I could use their feedback to improve my work constantly. However, mission is not done yet, we still need to see how extendable our product is, and how this tool would meet market trend in a larger scale.</div>
+      </div>
+    </div>
+    <div class="blog-content-contianer w-container">
+      <h1 class="blog-section-subheader">Reflection</h1>
+      <h1 class="blog-section-header">What we could do better</h1>
+      <div class="blog-content">
+        <div class="blog-content-normal">There are still things I am skeptical about. For example, the understanding phase is based on communication with warehouse manager, without involving&nbsp;the first stakeholder who directly uses our APP— warehouse return clerk. Would there be better and more efficiency design iteration, if we involve them in the beginning before we have built our mind? How we organize a gathering of warehouse clerks from different area? What should be prepare?
+          <br>
+          <br>The most undesired consequence is that the end user only found bad usability issue after the product is released to market, even though the product has passed the&nbsp;usability test in a given context — lab. Because of the company cooperation myths, we hardly have access to observe&nbsp;end user in requirement gathering phrase.&nbsp;It also happens in another project I am working on recently. Before I could convince the leadership invest more in customer relations,&nbsp;I am also thinking actively with what was given, how to refine our design&nbsp;process to focus on the as&nbsp;best task as we can in each phrase.</div>
       </div>
     </div>
   </div>
