@@ -1258,6 +1258,13 @@ blockquote {
   margin-bottom: 20px;
 }
 
+.seq {
+    margin-right: 5px;
+    color: rgba(204, 143, 19, .9);
+    font-size: 17px;
+    font-weight: 700;
+}
+
 .caption {
   margin-top: -25px;
   float: right;
