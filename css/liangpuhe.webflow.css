@@ -1265,6 +1265,9 @@ blockquote {
     font-weight: 700;
 }
 
+.ubi {
+    color: #e69ba7;
+}
 .caption {
   margin-top: -25px;
   float: right;
