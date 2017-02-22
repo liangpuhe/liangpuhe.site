@@ -485,6 +485,11 @@ textarea.w-select {
   .w-container {
     max-width: 728px;
   }
+  .w-col {
+    width: 100%;
+    left: auto;
+    right: auto;
+  }
   .w-hidden-main {
     display: inherit !important;
   }

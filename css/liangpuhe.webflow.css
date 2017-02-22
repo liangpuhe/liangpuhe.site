@@ -1344,7 +1344,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     padding: 7px;
   }
   .hamburger-button.w--open {
-    background-color: #000;
+    background-color: #717171;
   }
   .hamburger-button.left {
     float: left;
@@ -1356,7 +1356,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     margin-top: 0px;
     padding-top: 26px;
     padding-bottom: 26px;
-    background-color: #000;
+    background-color: #717171;
   }
   .section {
     padding-bottom: 0px;
