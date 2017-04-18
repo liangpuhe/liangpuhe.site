@@ -1379,6 +1379,9 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   .photo-block {
     height: 222px;
   }
+  .w-col-8 {
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1426,6 +1429,9 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   }
   .blog-title-wrapper {
     text-align: center;
+  }
+  .w-col-8 {
+    margin-top: 15px;
   }
 }
 
@@ -1477,6 +1483,9 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
   }
   .blog-content-img {
     margin-left: -10px;
+  }
+  .w-col-8 {
+    margin-top: 15px;
   }
 }
 
